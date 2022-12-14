@@ -111,6 +111,7 @@ namespace CircularQueues
         static void Main(string[] args)
         {
             Queues q = new Queues();
+            char ch;
         }
     }
 }
