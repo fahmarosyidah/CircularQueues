@@ -16,7 +16,12 @@ namespace CircularQueues
 
         public void insert(int elemen)
         {
-            
+            //This statement checks for the overflow condition
+            if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1))
+            {
+                Console.WriteLine("\nQueue Overflow\n");
+                return;
+            }
         }
 
         static void Main(string[] args)
