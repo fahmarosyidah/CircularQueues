@@ -14,6 +14,11 @@ namespace CircularQueues
             REAR = -1;
         }
 
+        public void insert(int elemen)
+        {
+            
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
