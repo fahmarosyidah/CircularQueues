@@ -110,7 +110,7 @@ namespace CircularQueues
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Queues q = new Queues();
         }
     }
 }
