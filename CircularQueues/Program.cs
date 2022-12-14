@@ -14,7 +14,7 @@ namespace CircularQueues
             REAR = -1;
         }
 
-        public void insert(int elemen)
+        public void insert(int element)
         {
             //This statement checks for the overflow condition
             if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1))
@@ -37,6 +37,8 @@ namespace CircularQueues
                     //If REAR is not at the last position, then its value is incremented by one
                     REAR = REAR + 1;
             }
+            //Once the position of REAR is determined, the element is added at its proper place
+            queue_array[REAR] = element;
         }
 
         static void Main(string[] args)
