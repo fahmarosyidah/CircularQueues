@@ -2,7 +2,7 @@
 
 namespace CircularQueues
 {
-    class Program
+    class Queues
     {
         static void Main(string[] args)
         {
